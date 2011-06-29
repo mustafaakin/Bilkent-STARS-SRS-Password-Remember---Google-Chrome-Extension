@@ -1,0 +1,13 @@
+﻿{
+  "name": "Bilkent STARS:SRS Password Remember",
+  "version": "0.1",
+  "description": "Remembers your last entered password. BCC somehow managed to get away from browser's initial check, this is the permanent solution.",
+  "content_scripts": [{
+      "matches": ["https://stars.bilkent.edu.tr/srs/*"],
+      "js": ["jquery-1.4.2.min.js", "content.js"]
+    }
+  ],
+  "icons": { "32": "32.png",
+			 "48": "48.png",
+             "128": "128.png"}
+}
